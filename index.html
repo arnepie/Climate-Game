@@ -1533,7 +1533,7 @@
           s.pop >= 60 ? "Populair" : s.pop >= 40 ? "Matig" : "Onpopulair";
 
         const score =
-          100 - (s.temp - 1.2) * 35 + (s.eco - 50) * 0.6 + (s.pop - 50) * 0.6;
+          100 - (s.temp - 1.4) * 35 + (s.eco - 70) * 0.6 + (s.pop - 70) * 0.6;
         const [vt, vd] =
           score > 100
             ? [
